@@ -340,9 +340,6 @@ function classes2() {
 
 function save() {
 
-    $('#checkJ1').css('display', 'block');
-    $('#checkJ2').css('display', 'block');
-
     let iniFOR1 = document.getElementById('FOR1').value;
     let iniEND1 = document.getElementById('END1').value;
     let iniHAB1 = document.getElementById('HAB1').value;
@@ -366,32 +363,6 @@ function save() {
     let iniTIR2 = document.getElementById('TIR2').value;
     let iniNA2 = document.getElementById('NA2').value;
     let iniPV2 = document.getElementById('PV2').value;
-
-    /* console.log("Stats stored");
-    console.log(
-        "For Joueur 1: ", FOR1.value, '\n',
-        "End Joueur 1: ", END1.value, '\n',
-        "Hab Joueur 1: ", HAB1.value, '\n',
-        "Char Joueur 1: ", CHAR1.value, '\n',
-        "Int Joueur 1: ", INT1.value, '\n',
-        "Ini Joueur 1: ", INI1.value, '\n',
-        "Att Joueur 1: ", ATT1.value, '\n',
-        "Par Joueur 1: ", PAR1.value, '\n',
-        "Tir Joueur 1: ", TIR1.value, '\n',
-        "Na Joueur 1: ", NA1.value, '\n',
-        "Pv Joueur 1: ", PV1.value, '\n', '\n',
-
-        "For Joueur 2: ", FOR2.value, '\n',
-        "End Joueur 2: ", END2.value, '\n',
-        "Hab Joueur 2: ", HAB2.value, '\n',
-        "Char Joueur 2: ", CHAR2.value, '\n',
-        "Int Joueur 2: ", INT2.value, '\n',
-        "Ini Joueur 2: ", INI2.value, '\n',
-        "Att Joueur 2: ", ATT2.value, '\n',
-        "Par Joueur 2: ", PAR2.value, '\n',
-        "Tir Joueur 2: ", TIR2.value, '\n',
-        "Na Joueur 2: ", NA2.value, '\n',
-        "Pv Joueur 2: ", PV2.value, '\n'); */
 
     $('.reload').on('click', function () {
         document.getElementById("resultContent").innerHTML = "";

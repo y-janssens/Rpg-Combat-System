@@ -2,7 +2,7 @@ import random
 import dices as d
 
 def ini():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result: " + str(dice) + "\n--> To F1\n")
         f1()
@@ -11,7 +11,7 @@ def ini():
         f2()
 
 def f1():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result: " + str(dice) + "\n--> To F11\n")
         f11()
@@ -20,7 +20,7 @@ def f1():
         f12()
 
 def f11():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result : " + str(dice) + "\n--> To F111\n")
         f111()
@@ -29,7 +29,7 @@ def f11():
         f112()
 
 def f12():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result : " + str(dice) + "\n--> To F121\n")
         f121()
@@ -38,23 +38,23 @@ def f12():
         f122()
 
 def f111():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f112():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f121():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f122():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f2():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result: " + str(dice) + "\n--> To F21\n")
         f21()
@@ -63,7 +63,7 @@ def f2():
         f22()
 
 def f21():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result : " + str(dice) + "\n--> To f211\n")
         f211()
@@ -72,7 +72,7 @@ def f21():
         f212()
 
 def f22():
-    dice = d.roll20()
+    dice = d.roll(20)
     if dice <= 10:
         print("Result : " + str(dice) + "\n--> To f221\n")
         f221()
@@ -81,19 +81,19 @@ def f22():
         f222()
 
 def f211():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f212():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f221():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 def f222():
-    dice = d.roll20()
+    dice = d.roll(20)
     print("Final result : " + str(dice))
 
 ini()
